@@ -1,4 +1,4 @@
-#ADF pipelines
+# ADF pipelines
 Functions deployed using ADF pipelines to perform similar operations in 
 [taxi trip analysis dbt project](https://github.com/686290ED/taxi_trip/tree/main).
 
