@@ -1,0 +1,17 @@
+{
+	"type": "GoogleBigQuery",
+	"typeProperties": {
+		"project": "dbt-bigquery-383705",
+		"requestGoogleDriveScope": false,
+		"authenticationType": "UserAuthentication",
+		"clientId": "<clientId>",
+		"clientSecret": {
+			"type": "SecureString",
+			"value":"<clientSecret>"
+		},
+		"refreshToken": {
+			"type": "SecureString",
+			"value": "<refreshToken>"
+		}
+	}
+}
