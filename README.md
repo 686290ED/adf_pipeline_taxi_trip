@@ -6,8 +6,8 @@ Functions deployed using ADF pipelines to perform similar operations in
  storage account, storage container and data factory. 
 ## 1. Copy data from BigQuery to blob storage using Copy data operation.
 [Bash script](https://github.com/686290ED/adf_pipeline_taxi_trip/blob/main/bash%20scripts/copy_ls.sh) creates a link service for connecting to BigQuery
-and blob storage with properties defined in [BigQuery json file](https://github.com/686290ED/adf_pipeline_taxi_trip/blob/main/copy%20data/adf_linked_service_bigquery.json)
-and [blob json file](https://github.com/686290ED/adf_pipeline_taxi_trip/blob/main/copy%20data/adf_linked_service_blob.json).
+and blob storage with properties defined in [BigQuery JSON file](https://github.com/686290ED/adf_pipeline_taxi_trip/blob/main/copy%20data/adf_linked_service_bigquery.JSON)
+and [blob JSON file](https://github.com/686290ED/adf_pipeline_taxi_trip/blob/main/copy%20data/adf_linked_service_blob.JSON).
 [SQL script](https://github.com/686290ED/adf_pipeline_taxi_trip/blob/main/copy%20data/get_coordinate_range.sql) calculates coordinate range of the area.  
 [Python script](https://github.com/686290ED/adf_pipeline_taxi_trip/blob/main/copy%20data/adf_pipeline_copy.py) defines datasets 
 and the pipeline and runs the pipeline.
