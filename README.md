@@ -17,7 +17,7 @@ and the pipeline and runs the pipeline.
 
 ## 3. Calculate nearest weather station to each pickup/drop-off location using Databricks.
 [Bash script](https://github.com/686290ED/adf_pipeline_taxi_trip/blob/main/bash%20scripts/Databricks.sh) creates a Databricks workspace, 
-gets the storage access key and save it in a key vault, which will be added to Databricks secret scope.
+gets the storage access key and saves it in a key vault, which will be added to Databricks secret scope.
 Create a Databricks notebook using [script](https://github.com/686290ED/adf_pipeline_taxi_trip/blob/main/coordinate_nearest_station/Databricks_python_nearest_station.py). 
 Define and run pipeline of the Databricks activity using [python script](https://github.com/686290ED/adf_pipeline_taxi_trip/blob/main/coordinate_nearest_station/adf_pipeline_nearest_station.py).
 
